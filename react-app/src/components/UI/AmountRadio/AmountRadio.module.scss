@@ -1,0 +1,22 @@
+@import "./../../../scss/colors.scss";
+
+.radio_amount_fieldset{
+    color: white;
+
+    .radio_amount_selector{
+        color:aquamarine;
+        background-color: black;
+
+        .label{
+            color:bisque;
+        }
+    }
+}
+
+.div{
+    color: white;
+}
+
+.radio-amount-legend{
+    color:white;
+}
