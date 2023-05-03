@@ -239,8 +239,7 @@ function delete_room(roomID: string){
 async function send_to_wallet(wallet: string, amount: number){
   const bs58 = require('bs58');
 
-  //4QhNP1sWW3UMQKQqBaEuzkXuCwz4a6dsq3hbizRgKN9i3y4DK6VtY37QnFC6VPqqskec1HMCbPQNyLnqHkTLdJoH
-  const LongKey = "4QhNP1sWW3UMQKQqBaEuzkXuCwz4a6dsq3hbizRgKN9i3y4DK6VtY37QnFC6VPqqskec1HMCbPQNyLnqHkTLdJoH"
+  //const LongKey = 
   const privateKey = bs58.decode(LongKey)
   const secretKey = new Uint8Array(privateKey.buffer, privateKey.byteOffset, privateKey.byteLength / Uint8Array.BYTES_PER_ELEMENT);
 
